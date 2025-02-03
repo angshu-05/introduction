@@ -1,0 +1,111 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Center text and add padding for sections */
+ h, p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header section styling */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Image styling for the profile picture */
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Name and other details */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Skills, certifications, and about sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Skills, certifications, and about text bold and color */
+section b {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Contact section styling */
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-info img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Social media icon and links */
+.contact-info img {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+/* Styling for social media links */
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    p, section b {
+        font-size: 16px;
+    }
+}
